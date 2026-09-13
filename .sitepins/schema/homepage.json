@@ -1,0 +1,140 @@
+{
+  "file": "src/content/homepage/-index.md",
+  "name": "homepage",
+  "fileType": "md",
+  "fmType": "yaml",
+  "template": [
+    {
+      "name": "banner",
+      "label": "Banner",
+      "type": "object",
+      "description": "Banner",
+      "isIgnored": false,
+      "defaultValue": "",
+      "fields": [
+        {
+          "name": "title",
+          "label": "Title",
+          "type": "string",
+          "value": "",
+          "isIgnored": false,
+          "defaultValue": ""
+        },
+        {
+          "name": "content",
+          "label": "Content",
+          "type": "string",
+          "value": "",
+          "isIgnored": false,
+          "defaultValue": ""
+        },
+        {
+          "name": "badge",
+          "label": "Badge",
+          "type": "object",
+          "isIgnored": false,
+          "defaultValue": "",
+          "fields": [
+            {
+              "name": "enable",
+              "label": "Enable",
+              "type": "boolean",
+              "value": false,
+              "isIgnored": false,
+              "defaultValue": false
+            },
+            {
+              "name": "label",
+              "label": "Label",
+              "type": "string",
+              "value": "",
+              "isIgnored": false,
+              "defaultValue": ""
+            },
+            {
+              "name": "images",
+              "label": "Images",
+              "type": "gallery",
+              "isIgnored": false,
+              "defaultValue": ""
+            }
+          ]
+        },
+        {
+          "name": "image",
+          "label": "Image",
+          "type": "media",
+          "value": "",
+          "isIgnored": false,
+          "defaultValue": ""
+        },
+        {
+          "name": "button_dark",
+          "label": "Button Dark",
+          "type": "object",
+          "isIgnored": false,
+          "defaultValue": "",
+          "fields": [
+            {
+              "name": "enable",
+              "label": "Enable",
+              "type": "boolean",
+              "value": false,
+              "isIgnored": false,
+              "defaultValue": false
+            },
+            {
+              "name": "label",
+              "label": "Label",
+              "type": "string",
+              "value": "",
+              "isIgnored": false,
+              "defaultValue": ""
+            },
+            {
+              "name": "link",
+              "label": "Link",
+              "type": "string",
+              "value": "",
+              "isIgnored": false,
+              "defaultValue": ""
+            }
+          ]
+        },
+        {
+          "name": "button_primary",
+          "label": "Button Primary",
+          "type": "object",
+          "isIgnored": false,
+          "defaultValue": "",
+          "fields": [
+            {
+              "name": "enable",
+              "label": "Enable",
+              "type": "boolean",
+              "value": false,
+              "isIgnored": false,
+              "defaultValue": false
+            },
+            {
+              "name": "label",
+              "label": "Label",
+              "type": "string",
+              "value": "",
+              "isIgnored": false,
+              "defaultValue": ""
+            },
+            {
+              "name": "link",
+              "label": "Link",
+              "type": "string",
+              "value": "",
+              "isIgnored": false,
+              "defaultValue": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
